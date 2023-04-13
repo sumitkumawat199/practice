@@ -122,3 +122,32 @@ header {
 .services a{
   font-size: 16px;
 }
+@media screen and (max-width:667px) {
+  .container{
+    width: 100%;
+    padding: 0 15px;
+  }
+  .header-bg{
+    width: 100%;
+    position: sticky;
+  }
+  .menu{
+    display: none;
+  }
+  .slider{
+    width: 100%;
+    height: 88vh;
+  }
+  .slider h1{
+    font-size: 64px;
+  }
+  .services ul{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+  }
+  .services li{
+    width: 100%;
+    margin: 20px 0;
+  }
+}
