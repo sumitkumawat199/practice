@@ -122,6 +122,9 @@ header {
 .services a{
   font-size: 16px;
 }
+.menu-bar{
+  display: none;
+}
 @media screen and (max-width:667px) {
   .container{
     width: 100%;
@@ -149,5 +152,9 @@ header {
   .services li{
     width: 100%;
     margin: 20px 0;
+  }
+  .menu-bar{
+    display: block;
+    font-size: 24px;
   }
 }
