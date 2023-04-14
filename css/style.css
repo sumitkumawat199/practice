@@ -79,81 +79,161 @@ header {
   height: 100vh;
   position: relative;
 }
-.overlay{
-  background: rgba(0, 0, 0, .5);
+.overlay {
+  background: rgba(0, 0, 0, 0.5);
   height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
 }
-.slider h1{
+.slider h1 {
   text-align: center;
   color: #fff;
   font-size: 200px;
   z-index: 1;
   position: relative;
 }
-.services ul{
+.services ul {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.services li{
+.services li {
   width: 32%;
   padding: 30px 20px;
   background: #f9f9f9;
   border-radius: 10px;
   text-align: center;
-  transition: .5s;
+  transition: 0.5s;
 }
-.services li:hover{
+.services li:hover {
   background: none;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
-.services h2{
+.services h2 {
   font-size: 20px;
 }
-.services p{
+.services p {
   font-size: 16px;
   padding: 20px 0 30px;
   line-height: 30px;
 }
-.services a{
+.services a {
   font-size: 16px;
 }
-.menu-bar{
+.about {
+  background-image: url(../images/slider.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  padding: 200px 0;
+  margin-top: 100px;
+  position: relative;
+}
+.about h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+  z-index: 8;
+  position: relative;
+}
+.dummy-cards ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.dummy-cards li {
+  width: 24%;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.dummy-cards li:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.dummy-cards-content {
+  padding: 20px;
+  text-align: center;
+}
+.dummy-cards-content h3 {
+  font-size: 20px;
+}
+.dummy-cards-content p {
+  font-size: 16px;
+  line-height: 30px;
+  margin: 20px 0 30px;
+}
+.dummy-cards img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.dummy-section{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dummy-section .left-panel {
+  width: 49%;
+}
+.dummy-section .right-panel{
+  width: 49%;
+}
+.dummy-section .right-panel h2{
+  font-size: 44px;
+}
+.dummy-section .right-panel p{
+  font-size: 16px;
+  line-height: 30px;
+  color: #696969;
+  padding: 20px 0 30px;
+}
+.dummy-section .right-panel .learn{
+  background: rgb(255, 217, 0);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  transition: .5s;
+}
+.dummy-section .right-panel .learn:hover{
+  background: #f00;
+}
+.dummy-section img {
+  width: 100%;
+}
+.menu-bar {
   display: none;
 }
-@media screen and (max-width:667px) {
-  .container{
+@media screen and (max-width: 667px) {
+  .container {
     width: 100%;
     padding: 0 15px;
   }
-  .header-bg{
+  .header-bg {
     width: 100%;
     position: sticky;
   }
-  .menu{
+  .menu {
     display: none;
   }
-  .slider{
+  .slider {
     width: 100%;
     height: 88vh;
   }
-  .slider h1{
+  .slider h1 {
     font-size: 64px;
   }
-  .services ul{
+  .services ul {
     margin-top: 60px;
     display: flex;
     flex-direction: column;
   }
-  .services li{
+  .services li {
     width: 100%;
     margin: 20px 0;
   }
-  .menu-bar{
+  .menu-bar {
     display: block;
     font-size: 30px;
   }
