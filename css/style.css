@@ -71,7 +71,9 @@ header {
 .menu li:last-child:hover {
   background: #f00;
 }
-.slider-1, .slider-2, .slider-3 {
+.slider-1,
+.slider-2,
+.slider-3 {
   position: relative;
 }
 .slider img {
@@ -127,7 +129,7 @@ header {
 }
 .slider .slick-dots li {
   margin: -50px 5px 0;
-  z-index: 9;
+  z-index: 1;
 }
 .slider .slick-dots button {
   display: block;
@@ -322,6 +324,9 @@ footer h2 {
 .menu-bar {
   display: none;
 }
+.mobile-menu {
+  display: none;
+}
 @media screen and (max-width: 667px) {
   .container {
     width: 100%;
@@ -333,6 +338,31 @@ footer h2 {
   }
   .menu {
     display: none;
+  }
+  .menu-bar {
+    display: block;
+    font-size: 30px;
+    /* position: relative; */
+  }
+  .mobile-menu {
+    display: block;
+    position: fixed;
+    background: #fff;
+    width: 80%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    /* padding: 30px 20px; */
+  }
+  .mobile-menu li {
+    /* margin: 30px 15px; */
+    padding: 10px 15px;
+  }
+  .mobile-menu a {
+    /* border: 1px solid #696969; */
+    font-size: 20px;
+    /* padding: 20px 0; */
+    display: inline-block;
   }
   .slider {
     width: 100%;
@@ -349,10 +379,6 @@ footer h2 {
   .services li {
     width: 100%;
     margin: 20px 0;
-  }
-  .menu-bar {
-    display: block;
-    font-size: 30px;
   }
   .about {
     width: 100%;
