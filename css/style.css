@@ -345,28 +345,53 @@ footer h2 {
     /* position: relative; */
   }
   .mobile-menu {
-    display: block;
+    /* display: block; */
+    display: none;
     position: fixed;
     background: #fff;
     width: 80%;
     height: 100vh;
     top: 0;
     left: 0;
+    box-shadow: 1px 1px 10px 5px rgba(0, 0, 0, 0.2);
     /* padding: 30px 20px; */
+  }
+  .mobile-menu-logo {
+    width: 100px;
+    margin: 12px 15px;
+    /* border-bottom: 1px solid #696969; */
+  }
+  .mobile-menu-logo img {
+    width: 100%;
+  }
+  .mobile-menu ul{
+    margin-top: 50px;
   }
   .mobile-menu li {
     /* margin: 30px 15px; */
     padding: 10px 15px;
+    border-bottom: 1px solid #696969;
+  }
+  .mobile-menu li:hover {
+    background: #f00;
+  }
+  .mobile-menu li:hover a {
+    color: #fff;
   }
   .mobile-menu a {
-    /* border: 1px solid #696969; */
     font-size: 20px;
     /* padding: 20px 0; */
     display: inline-block;
+    color: #000;
+  }
+  .close{
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    right: 10px;
   }
   .slider {
     width: 100%;
-    height: 88vh;
   }
   .slider h1 {
     font-size: 64px;
