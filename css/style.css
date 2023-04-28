@@ -364,7 +364,7 @@ footer h2 {
   .mobile-menu-logo img {
     width: 100%;
   }
-  .mobile-menu ul{
+  .mobile-menu ul {
     margin-top: 50px;
   }
   .mobile-menu li {
@@ -384,7 +384,7 @@ footer h2 {
     display: inline-block;
     color: #000;
   }
-  .close{
+  .close {
     font-size: 40px;
     position: absolute;
     top: 0;
@@ -395,6 +395,16 @@ footer h2 {
   }
   .slider h1 {
     font-size: 64px;
+  }
+  .slide-arrow {
+    background: #f00;
+    position: absolute;
+    top: 100pxN;
+  }
+  .slide-arrow .prev-arrow {
+    background-color: #000;
+    width: 20px;
+    height: 20px;
   }
   .services ul {
     margin-top: 60px;

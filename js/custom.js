@@ -7,8 +7,8 @@ $(document).ready(function () {
     autoplaySpeed: 1500,
     dots: true,
     arrows: false,
-    // prevArrow: '<button class="slide-arrow prev-arrow"></button>',
-    // nextArrow: '<button class="slide-arrow next-arrow"></button>',
+    prevArrow: '<button class="slide-arrow prev-arrow"></button>',
+    nextArrow: '<button class="slide-arrow next-arrow"></button>',
   });
 });
 $(document).ready(function () {
